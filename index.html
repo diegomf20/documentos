@@ -1,3 +1,21 @@
 <html>
+<head>
 
+</head>
+<body>
+    <h1>HERRAMIENTA PARA FECHAS</h1>
+    
+    <h3>JS</h3>
+    <pre id="txt-1"></pre>
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script>
+        $.get('codigo.html',function (params) {
+            $('#txt-1').text(params);
+        });
+        // $.get('codigo.html',function (params) {
+        //     $('#ejecutar-1').html(params);
+        // });
+    </script>
+</body>
 </html>
